@@ -1,3 +1,8 @@
+var firstArg = null;            // first argument
+var secondArg = null;           // second argument
+var oper = null;                // operation
+
+
 function add(x, y) {
     return x + y;
 }
