@@ -26,3 +26,24 @@ function testFuncs() {
     console.log(divide(8, 2));
 }
 
+function operate(x, opp, y) {
+    if (opp === "+") {
+        return x + y;
+    } else if (opp === "-") {
+        return x - y;
+    } else if (opp === "*") {
+        return x * y;
+    } else if (opp === "/") {
+        return x / y;
+    }
+}
+
+function testOperate() {
+    console.log(operate(8, '+', 2));
+    console.log(operate(8, '-', 2));
+    console.log(operate(8, '*', 2));
+    console.log(operate(8, '/', 2));
+}
+
+
+
